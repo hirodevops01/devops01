@@ -12,7 +12,7 @@ build:
 deploy:
   kubectl:
     manifests:
-      - hello*
+      - hello*   #kubernetes用yamlファイルを指定
 profiles:
 - name: dev
   build:
